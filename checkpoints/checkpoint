@@ -1,0 +1,2 @@
+model_checkpoint_path: "gcnexpaliner_syn2"
+all_model_checkpoint_paths: "gcnexpaliner_syn2"
