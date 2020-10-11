@@ -13,7 +13,7 @@ NeurIPS 2020
 @inproceedings{luo2020parameterized,
   title={Parameterized Explainer for Graph Neural Network},
   author={Luo, Dongsheng and Cheng, Wei and Xu, Dongkuan and Yu, Wenchao and Zong, Bo and Chen, Haifeng, and Zhang, Xiang},
-  booktitle={Proceedings of 34th Conference on Neural Information Processing Systems,},
+  booktitle={Proceedings of 34th Conference on Neural Information Processing Systems},
   year={2020}
 }
 ```
