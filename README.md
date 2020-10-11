@@ -1,7 +1,7 @@
 # PGExplainer
 This is a Tensorflow implementation of the paper: Parameterized Explainer for Graph Neural Network
 
-NeurIPS 2020
+<i>NeurIPS 2020</i>
 
 ## Requirements
   * Python 3.6.8
