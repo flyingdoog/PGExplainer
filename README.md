@@ -1,6 +1,8 @@
 # PGExplainer
 This is a Tensorflow implementation of the paper: <b>Parameterized Explainer for Graph Neural Network</b>
 
+paper: [http://personal.psu.edu/dul262/PGExplainer/PGExplainer.pdf]
+
 <i>NeurIPS 2020</i>
 
 ## Requirements
