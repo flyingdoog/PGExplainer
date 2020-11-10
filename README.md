@@ -12,10 +12,11 @@ https://arxiv.org/abs/2011.04573
 
 ## References
 ```
-@inproceedings{luo2020parameterized,
+@article{luo2020parameterized,
   title={Parameterized Explainer for Graph Neural Network},
-  author={Luo, Dongsheng and Cheng, Wei and Xu, Dongkuan and Yu, Wenchao and Zong, Bo and Chen, Haifeng, and Zhang, Xiang},
-  booktitle={Proceedings of 34th Conference on Neural Information Processing Systems},
+  author={Luo, Dongsheng and Cheng, Wei and Xu, Dongkuan and Yu, Wenchao and Zong, Bo and Chen, Haifeng and Zhang, Xiang},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
   year={2020}
 }
 ```
