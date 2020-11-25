@@ -121,7 +121,7 @@ class Explainer(tf.keras.Model):
         else:
             size_loss = self.coeffs["size"] * tf.nn.relu(tf.reduce_sum(self.mask)-args.budget)
         scale=0.99
-        mask = (self.mask-0.0)*scale+(1-scale)
+        mask = self.mask*(2*scale-1.0)+(1.0-scale)
         mask_ent = -mask * tf.math.log(mask) - (1 - mask) * tf.math.log(1 - mask)
         mask_ent_loss = self.coeffs["ent"] * tf.reduce_mean(mask_ent)
 
