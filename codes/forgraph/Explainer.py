@@ -1,4 +1,3 @@
-import numpy as np
 import tensorflow as tf
 from config import args
 
@@ -56,7 +55,7 @@ class Explainer(tf.keras.Model):
 
 
         sparsemask = tf.sparse.SparseTensor(
-            indices=np.concatenate([np.expand_dims(self.row, -1), np.expand_dims(self.col, -1)], axis=-1),
+            indices=tf.cast(tf.concat([tf.expand_dims(self.row, -1), tf.expand_dims(self.col, -1)], axis=-1),tf.int64),
             values=values,
             dense_shape=[self.nodesize,self.nodesize]
         )
