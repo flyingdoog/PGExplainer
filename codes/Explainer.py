@@ -1,4 +1,3 @@
-import numpy as np
 import tensorflow as tf
 from config import args
 
@@ -28,7 +27,7 @@ class Explainer(tf.keras.Model):
         sym_mask = (sym_mask + tf.transpose(sym_mask)) / 2
 
         sparseadj = tf.sparse.SparseTensor(
-            indices=np.concatenate([np.expand_dims(adj.row,-1), np.expand_dims(adj.col,-1)], axis=-1),
+            indices=tf.cast(tf.concat([tf.expand_dims(adj.row,-1), tf.expand_dims(adj.col,-1)], axis=-1),tf.int64),
             values = adj.data,
             dense_shape=adj.shape
         )
@@ -80,7 +79,7 @@ class Explainer(tf.keras.Model):
         #     print(values)
 
         sparsemask = tf.sparse.SparseTensor(
-            indices=np.concatenate([np.expand_dims(adj.row,-1), np.expand_dims(adj.col,-1)], axis=-1),
+            indices= tf.cast(tf.concat([tf.expand_dims(adj.row,-1), tf.expand_dims(adj.col,-1)], axis=-1),tf.int64),
             values = values,
             dense_shape=adj.shape
         )
