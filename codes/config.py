@@ -30,7 +30,7 @@ def get_params():
     parser.add_argument('--dropout',type=float, default=0.0, help='dropout rate (1 - keep probability).')
     parser.add_argument('--hiddens', type=str, default='20-20-20')
     parser.add_argument("--lr", type=float, default=0.001,help='initial learning rate.')
-    parser.add_argument('--bn', type=bool, default=False)
+    parser.add_argument('--bn', type=bool, default=True)
     parser.add_argument('--concat', type=bool, default=True)
     parser.add_argument('--valid', type=bool, default=False)
 
