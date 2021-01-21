@@ -57,7 +57,7 @@ class GCN(keras.Model):
             layer = self.layers_[layerindex]
             x = layer.call((x,support),training)
             if self.bn and layerindex!=nmb_layers-1:
-                x = self.bnlayers[layerindex](x)
+                x = self.bnlayers[layerindex](x,training=training)
             x_all.append(x)
         if args.concat:
             x = tf.concat(x_all,axis=-1)
