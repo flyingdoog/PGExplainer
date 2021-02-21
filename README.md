@@ -22,7 +22,7 @@ https://arxiv.org/abs/2011.04573
 ```
 
 # Pytorch Implementation
-Here are two re-implementations and reproductition reports from other groups.
+Here are two re-implementations and reproduction reports from other groups.
 Thanks very much these researchers for re-implementing PGExplainer to make it more easy to use!
 
 [Re] Parameterized Explainer for Graph Neural Network 
