@@ -1,0 +1,17 @@
+{
+    "explainer": {
+        "dataset": "ba2",
+        "model": "GNN",
+        "explainer": "PG",
+        "lr" : 0.005,
+        "epochs" : 30,
+        "sample_bias" : 0.0,
+        "reg_size" : 0.0003,
+        "reg_ent" : 0.3,
+        "temps" : [5.0, 1.0],
+        "seeds" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+        "eval_enabled" : true,
+        "thres_snip" : 5,
+        "thres_min" : -1
+    }
+}
