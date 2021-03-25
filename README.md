@@ -25,7 +25,9 @@ https://arxiv.org/abs/2011.04573
 Here are two re-implementations and reproduction reports from other groups.
 Thanks very much these researchers for re-implementing PGExplainer to make it more easy to use!
 
-[Re] Parameterized Explainer for Graph Neural Network 
+
+
+1. [Re] Parameterized Explainer for Graph Neural Network 
 
 https://openreview.net/forum?id=8JHrucviUf
 
@@ -35,7 +37,7 @@ https://openreview.net/attachment?id=8JHrucviUf&name=supplementary_material
 
 Note that in this report, they adopt different GCN models with our implementation.
 
-Reproducing: Parameterized Explainer for Graph NeuralNetwork
+2. Reproducing: Parameterized Explainer for Graph NeuralNetwork
 
 https://openreview.net/forum?id=tt04glo-VrT
 
@@ -43,6 +45,11 @@ Code:
 
 https://openreview.net/attachment?id=tt04glo-VrT&name=supplementary_material
 
+
+
+3.  DIG
+
+https://github.com/divelab/DIG/tree/main/dig/xgraph/PGExplainer
 
 
 
