@@ -43,8 +43,8 @@ class GCN(keras.Model):
     def call(self,inputs,training=None):
         out = self.getNodeEmb(inputs,training)
 
-        out1 = tf.reduce_max(out, axis=-1)
-        out2 = tf.reduce_sum(out, axis=-1)
+        out1 = tf.reduce_max(out, axis=1)
+        out2 = tf.reduce_sum(out, axis=1)
         out = tf.concat([out1, out2], axis=-1)
         out = self.pred_layer(out)
         return out
