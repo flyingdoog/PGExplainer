@@ -14,7 +14,7 @@ def get_params():
     parser.add_argument('--device', type=str, default='0',help='device to use')  #
     parser.add_argument('--early_stop', type=int, default= 100, help='early_stop')
     parser.add_argument('--dtype', type=str, default='float32')  #
-    parser.add_argument('--seed',type=int, default=1234, help='seed')
+    parser.add_argument('--seed',type=int, default=12, help='seed')
     parser.add_argument('--setting',type=int, default=2, help='setting')
 
     parser.add_argument('--order', type=str, default='AW')  #
