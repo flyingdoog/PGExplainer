@@ -29,13 +29,15 @@ Thanks very much these researchers for re-implementing PGExplainer to make it mo
 
 1. [Re] Parameterized Explainer for Graph Neural Network 
 
-https://openreview.net/forum?id=8JHrucviUf
+https://zenodo.org/record/4834242/files/article.pdf
+
 
 Code: 
 
-https://openreview.net/attachment?id=8JHrucviUf&name=supplementary_material
+https://github.com/LarsHoldijk/RE-ParameterizedExplainerForGraphNeuralNetworks
 
-Note that in this report, they adopt different GCN models with our implementation.
+
+<b>Note that in this report, they adopt different GCN models with our implementation.</b>
 
 2. Reproducing: Parameterized Explainer for Graph NeuralNetwork
 
