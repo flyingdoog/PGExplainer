@@ -10,22 +10,9 @@ https://arxiv.org/abs/2011.04573
   * tensorflow 2.0
   * networkx
 
-## References
-```
-@article{luo2020parameterized,
-  title={Parameterized Explainer for Graph Neural Network},
-  author={Luo, Dongsheng and Cheng, Wei and Xu, Dongkuan and Yu, Wenchao and Zong, Bo and Chen, Haifeng and Zhang, Xiang},
-  journal={Advances in Neural Information Processing Systems},
-  volume={33},
-  year={2020}
-}
-```
-
-# Pytorch Implementation
+# Pytorch Implementations
 Here are several re-implementations and reproduction reports from other groups.
 Thanks very much these researchers for re-implementing PGExplainer to make it more easy to use!
-
-
 
 1. [Re] Parameterized Explainer for Graph Neural Network 
 
@@ -46,6 +33,23 @@ https://openreview.net/forum?id=tt04glo-VrT
 Code: 
 
 https://openreview.net/attachment?id=tt04glo-VrT&name=supplementary_material
+
+
+
+## References
+```
+@article{luo2020parameterized,
+  title={Parameterized Explainer for Graph Neural Network},
+  author={Luo, Dongsheng and Cheng, Wei and Xu, Dongkuan and Yu, Wenchao and Zong, Bo and Chen, Haifeng and Zhang, Xiang},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  year={2020}
+}
+```
+
+## Awesome Graph Explainability Papers
+
+https://github.com/flyingdoog/awesome-graph-explainability-papers
 
 
 
