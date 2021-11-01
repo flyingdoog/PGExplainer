@@ -26,13 +26,25 @@ https://github.com/LarsHoldijk/RE-ParameterizedExplainerForGraphNeuralNetworks
 
 <b>Note that in this report, they adopt different GCN models with our implementation.</b>
 
-2. Reproducing: Parameterized Explainer for Graph NeuralNetwork
+2.  DIG
+
+https://github.com/divelab/DIG/tree/main/dig/xgraph/PGExplainer
+
+
+3. Reproducing: Parameterized Explainer for Graph NeuralNetwork
 
 https://openreview.net/forum?id=tt04glo-VrT
 
 Code: 
 
 https://openreview.net/attachment?id=tt04glo-VrT&name=supplementary_material
+
+
+
+
+## Awesome Graph Explainability Papers
+
+https://github.com/flyingdoog/awesome-graph-explainability-papers
 
 
 
@@ -46,17 +58,6 @@ https://openreview.net/attachment?id=tt04glo-VrT&name=supplementary_material
   year={2020}
 }
 ```
-
-## Awesome Graph Explainability Papers
-
-https://github.com/flyingdoog/awesome-graph-explainability-papers
-
-
-
-3.  DIG
-
-https://github.com/divelab/DIG/tree/main/dig/xgraph/PGExplainer
-
 
 
 
