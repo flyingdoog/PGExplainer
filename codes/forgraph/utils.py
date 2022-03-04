@@ -9,7 +9,7 @@ def get_graph_data(dataset):
     pri = './dataset/'+dataset+'/'+dataset+'_'
 
     file_edges = pri+'A.txt'
-    file_edge_labels = pri+'edge_labels.txt'
+    # file_edge_labels = pri+'edge_labels.txt'
     file_edge_labels = pri+'edge_gt.txt'
     file_graph_indicator = pri+'graph_indicator.txt'
     file_graph_labels = pri+'graph_labels.txt'
