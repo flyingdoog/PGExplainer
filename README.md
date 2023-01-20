@@ -11,6 +11,10 @@ https://arxiv.org/abs/2011.04573
   * networkx
 
 # Pytorch Implementations
+Now, PGExplainer is avilable at pytorch_geometric
+
+https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/explain/algorithm/pg_explainer.py
+
 Here are several re-implementations and reproduction reports from other groups.
 Thanks very much these researchers for re-implementing PGExplainer to make it more easy to use!
 
