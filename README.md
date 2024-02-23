@@ -1,10 +1,11 @@
 # PGExplainer
-This is a Tensorflow implementation of the paper: <b>Parameterized Explainer for Graph Neural Network</b>
+This is a Tensorflow implementation of the PGExplainer: 
 
-https://arxiv.org/abs/2011.04573
+[<b>Parameterized Explainer for Graph Neural Network</b>](https://arxiv.org/abs/2011.04573)
 
 <i>NeurIPS 2020</i>
 
+[<b>Towards Inductive and Efficient Explanations for Graph Neural Networks</b>](https://ieeexplore.ieee.org/document/10423141)
 
 <i>TPAMI 2024</i>
 
