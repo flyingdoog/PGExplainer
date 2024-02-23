@@ -4,6 +4,7 @@ This is a Tensorflow implementation of the paper: <b>Parameterized Explainer for
 https://arxiv.org/abs/2011.04573
 
 <i>NeurIPS 2020</i>
+<i>TPAMI 2024</i>
 
 ## Requirements
   * Python 3.6.8
@@ -63,6 +64,14 @@ https://github.com/flyingdoog/awesome-graph-explainability-papers
   year={2020}
 }
 ```
-
+```
+@article{luo2024towards,
+  title={Towards Inductive and Efficient Explanations for Graph Neural Networks},
+  author={Luo, Dongsheng and Zhao, Tianxiang and Cheng, Wei and Xu, Dongkuan and Han, Feng and Yu, Wenchao and Liu, Xiao and Chen, Haifeng and Zhang, Xiang},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2024},
+  publisher={IEEE}
+}
+'''
 
 
