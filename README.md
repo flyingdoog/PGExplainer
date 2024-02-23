@@ -72,6 +72,6 @@ https://github.com/flyingdoog/awesome-graph-explainability-papers
   year={2024},
   publisher={IEEE}
 }
-'''
+```
 
 
